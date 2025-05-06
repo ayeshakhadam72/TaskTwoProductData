@@ -35,9 +35,9 @@
 
 // export default ProductCart
 import React, { useContext } from 'react';
-import Reusecard from './reuseCart';
+import Reusecard from '../components/reuseCart';
 import { CartData } from '../../context/cart';
-import Productdata from './productData';
+import Productdata from '../components/Productdata';
 
 const ProductCart = () => {
   const { Addproduct, ProductLoad } = useContext(CartData);
